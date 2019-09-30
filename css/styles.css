@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap');
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-var.css";
+@import "friend.css";
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: white;
+    padding: 10px 20px;
+    color: #020202;
+}
+
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+.friend .friend__column {
+    display: flex;
+    align-items: center;
+}
+
+.friend .friend__avatar {
+    margin-right: 15px;
+}
+
+.friend__content .friend__name {
+    display: block;
+    margin-bottom: 5px;
+} 
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.chat__tiemstamp{
+    opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text{
+    font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend .chat__tiemstamp {
+    font-size: 12px;
+}
