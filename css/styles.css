@@ -4,6 +4,8 @@
 @import "header.css";
 @import "nav-var.css";
 @import "friend.css";
+@import "friends.css";
+@import "find.css";
 
 
 * {
@@ -20,33 +22,4 @@ body{
 a{
     color:inherit;
     text-decoration: none;
-}
-
-.friend .friend__column {
-    display: flex;
-    align-items: center;
-}
-
-.friend .friend__avatar {
-    margin-right: 15px;
-}
-
-.friend__content .friend__name {
-    display: block;
-    margin-bottom: 5px;
-} 
-
-.friend__content .friend__status,
-.friend__content .friend__bottom-text,
-.chat__tiemstamp{
-    opacity: 0.6;
-}
-
-.friend__content .friend__bottom-text{
-    font-size: 14px;
-}
-
-.friend__content .friend__status,
-.friend .chat__tiemstamp {
-    font-size: 12px;
 }

@@ -18,3 +18,58 @@
 .friend__avatar.m-avatar {
     width: 60px; 
  }
+
+
+.friend .friend__column {
+    display: flex;
+    align-items: center;
+}
+
+.friend .friend__avatar {
+    margin-right: 15px;
+}
+
+.friend__content .friend__name {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+} 
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.chat__tiemstamp{
+    opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text{
+    font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend .chat__tiemstamp {
+    font-size: 12px;
+}
+
+.friend .friend__now-listening {
+    border: 1.5px solid #52e084;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+}
+
+.friend__now-listening span {
+    opacity: 0.7;
+}
+
+.friend__now-listening i {
+    font-size: 10px;
+}
+
+.friend__add-btn {
+    display: flex;
+    padding : 10px 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
